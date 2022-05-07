@@ -51,6 +51,7 @@ body {
   padding-inline: 2.4rem;
 }
 
+
 ul {
   list-style: none;
 }
@@ -487,6 +488,7 @@ body {
   overflow: auto;
 }
 
+
 .wrapper {
   width: min(112rem, 100%);
   display: grid;
@@ -756,66 +758,4 @@ footer p {
   
 }
 
-/*=== ANIMATION ================*/
-/* testando animação com função botão e posicionamento na tela */
-
-.anime{
- 
-  padding: 0;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 46%;
-  margin-top: 53rem;
-  
 }
-
-.b-anime{
-  background-color: red;
-  padding: 0;
-  display: block;
-  position: absolute;
-  top: 133%;
-  right: 47.8%;
-  opacity: initial;
-  opacity: 0;
-  
-}
-
-.loader-wrapper{
-  width: 10rem;
-  height: 10rem;
-
-
-} 
-
-.loader{
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  border: 1rem solid #162534;
-  border-top-color: #4bc8eb;
-  border-bottom-color: #f13a8f;
-  border-radius: 50%;
-  animation: rotate 5s linear infinite;
-}
-
-.loader-inner{
-  border-top-color: #36f372;
-  border-bottom-color: #fff;
-  animation-duration: 2.5s;
-}
-
-@keyframes rotate{
-  0%{
-  transform: scale(1) rotate(360deg);
-} 50% {
-  transform: scale(.8) rotate(-360deg);
-} 100%{
-  transform: scale(1) rotate(360deg);
-}
-
-}
-
-}
-
